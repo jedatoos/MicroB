@@ -18,12 +18,12 @@ public class TrainingController {
 
     private final TrainingService trainingService;
 
-    private final TrainingRepository trainingRepository;
+
 
     @Autowired
     public TrainingController(TrainingService trainingService, TrainingRepository trainingRepository) {
         this.trainingService = trainingService;
-        this.trainingRepository = trainingRepository;
+
     }
 
     @PostMapping

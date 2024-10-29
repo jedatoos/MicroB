@@ -12,7 +12,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class TrainingDTO {
     @Id
-     private String id;
+    private String id;
     private Long apprenticeId;
     private String apprenticeUsername;
     private Long trainerId;
